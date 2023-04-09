@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one li a:hover{
+            background-color: azure;
+        }
+        body{
+            margin: auto;
+        }
+        .one{
+            list-style: none;
+            float: left;
+        }
+        .one li{
+            display: block;
+        }
+        .two{
+            display: none;
+        }
+        .one:hover .two{
+            display: block;
+        }
+        .two{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul class="one">
+            <li class="three"><a href="#">这有下拉菜单</a>
+            <ul class="two">
+                <li><a href="https://www.baidu.com/">百度</a></li>
+                <li><a href="https://www.kuaishou.com/new-reco">快手</a></li>
+                <li><a href="https://www.douyin.com/">抖音</a></li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
